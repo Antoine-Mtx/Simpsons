@@ -28,6 +28,8 @@ header{
 }
 
 #container>figure{
+    border-top: solid white 1px;
+    border-bottom: solid white 1px;
     margin:0;
     height:40vh;
 }
@@ -44,12 +46,13 @@ main{
 
 nav{
     background-color: rgb(30, 137, 187);
+    border-bottom: dashed white 3px;
     padding: 1vh;
     text-align: center;
 }
 
 nav ul{
-    display: inline-block;
+    display: block;
     margin:0;
     padding:0;
     text-align: center;
@@ -95,6 +98,7 @@ article p{
 }
 
 #movies figure{
+    border: solid gray 1px;
     margin:0;
     overflow: hidden;
 }
@@ -134,7 +138,7 @@ figcaption h3{
 figcaption>p{
     margin: 0;
     text-align: center;
-    font-size: 80%;
+    font-size: 90%;
     font-style: italic;
 }
 

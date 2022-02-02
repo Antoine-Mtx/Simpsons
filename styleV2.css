@@ -50,6 +50,7 @@ nav{
 
 nav ul{
     display: inline-block;
+    margin:0;
     padding:0;
     text-align: center;
 }
@@ -61,18 +62,24 @@ nav ul li{
 }
 
 nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
     text-align: center;
     color: white;
 }
 
-#main_content_body{
-    display:flex;
+#main_content{
     padding: 0 2%;
+}
+
+#main_content_body{
+    padding: 0 0 2% 0;
+    display:flex;
 }
 
 article{
     flex:4;
-    padding: 0 2%;
+    padding: 0 3% 0 0;
 }
 
 article p{
@@ -81,11 +88,28 @@ article p{
 }
 
 #movies{
-    display:flex;
+    padding: 3% 1%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1%;
+}
+
+#movies figure{
+    margin:0;
+    overflow: hidden;
+}
+
+#movies figure img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
 }
 
 h2{
-    color: rgb(236, 202, 6);;
+    color: rgb(236, 202, 6);
+    margin:0;
+    padding: 3% 0;
 }
 
 aside{
@@ -102,12 +126,19 @@ aside figure img{
     border: 1px solid white;
 }
 
-aside h3{
+figcaption h3{
     margin:0;
     text-align: center;
 }
 
-aside p {
+figcaption>p{
+    margin: 0;
+    text-align: center;
+    font-size: 80%;
+    font-style: italic;
+}
+
+aside>p {
     padding:3%;
     text-align: justify;
 }

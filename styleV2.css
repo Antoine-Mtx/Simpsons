@@ -4,6 +4,7 @@
 
 body{
     background-color: rgb(236, 202, 6);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin:0;
 }
 
@@ -18,6 +19,7 @@ h1{
     margin: 0;
     padding: 1vh;
 }
+
 header{
     position: sticky;
     top:0;
@@ -59,7 +61,7 @@ nav ul{
 }
 
 nav ul li{
-    padding: 1%;
+    padding: 0.5em 1em;
     list-style: none;
     display: inline-block;
 }
@@ -72,17 +74,17 @@ nav ul li a{
 }
 
 #main_content{
-    padding: 0 2%;
+    padding: 0 1em;
 }
 
 #main_content_body{
-    padding: 0 0 2% 0;
+    padding: 0 0 1em 0;
     display:flex;
 }
 
 article{
     flex:4;
-    padding: 0 3% 0 0;
+    padding: 0 1em 0 0;
 }
 
 article p{
@@ -91,10 +93,10 @@ article p{
 }
 
 #movies{
-    padding: 3% 1%;
+    padding: 1em 0.5em;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1%;
+    column-gap: 0.2em;
 }
 
 #movies figure{
@@ -113,7 +115,7 @@ article p{
 h2{
     color: rgb(236, 202, 6);
     margin:0;
-    padding: 3% 0;
+    padding: 1em 0;
 }
 
 aside{
@@ -123,7 +125,7 @@ aside{
 }
 
 aside figure{
-    margin: 5% 15%;
+    margin: 1em 3em;
 }
 
 aside figure img{
@@ -143,7 +145,7 @@ figcaption>p{
 }
 
 aside>p {
-    padding:3%;
+    padding:1em;
     text-align: justify;
 }
 
@@ -151,5 +153,5 @@ footer{
     text-align: center;
     color:white;
     background-color: rgb(8, 41, 104);
-    padding: 0.4em;
+    padding: 0.5em;
 }

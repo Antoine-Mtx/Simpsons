@@ -65,8 +65,9 @@ nav ul li a{
     color: white;
 }
 
-#content{
+#main_content_body{
     display:flex;
+    padding: 0 2%;
 }
 
 article{
@@ -76,6 +77,7 @@ article{
 
 article p{
     margin: 0;
+    text-align: justify;
 }
 
 #movies{

@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 202, 6);
+    margin:0;
+}
+
+#container{
+    max-width: 1024px;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    font-style: italic;
+    margin: 0;
+    padding: 1vh;
+}
+header{
+    position: sticky;
+    top:0;
+    background-color: rgb(30, 137, 187);
+    color: white;
+    margin: 0;
+
+}
+
+#container>figure{
+    margin:0;
+    height:40vh;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main{
+    background-color: white;
+}
+
+nav{
+    background-color: rgb(30, 137, 187);
+    padding: 1vh;
+    text-align: center;
+}
+
+nav ul{
+    display: inline-block;
+    padding:0;
+    text-align: center;
+}
+
+nav ul li{
+    padding: 1%;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-align: center;
+    color: white;
+}
+
+#content{
+    display:flex;
+}
+
+article{
+    flex:4;
+    padding: 0 2%;
+}
+
+article p{
+    margin: 0;
+}
+
+#movies{
+    display:flex;
+}
+
+h2{
+    color: rgb(236, 202, 6);;
+}
+
+aside{
+    flex:2;
+    background-color: rgb(30, 137, 187);
+    color: white;
+}
+
+aside figure{
+    margin: 5% 15%;
+}
+
+aside figure img{
+    border: 1px solid white;
+}
+
+aside h3{
+    margin:0;
+    text-align: center;
+}
+
+aside p {
+    padding:3%;
+    text-align: justify;
+}
+
+footer{
+    text-align: center;
+    color:white;
+    background-color: rgb(8, 41, 104);
+    padding: 0.4em;
+}
